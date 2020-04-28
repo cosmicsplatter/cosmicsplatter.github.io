@@ -1,5 +1,4 @@
 
-
 html, body {
     margin: 0;
     padding: 0;
@@ -21,10 +20,12 @@ html, body {
     color: #130E26;
 }
 
-.footer > li{
+.footer > a{
     text-decoration: none;
     color: #130E26;
 }
+
+
 /*Nav*/
 #navbar {
     display: flex;
@@ -48,7 +49,7 @@ html, body {
     width: 33.3%;
     text-align: center;
 }
-.gradient {
+#navbar .gradient {
     display: block;
     color: white;
     padding: 10px 50px;
@@ -58,7 +59,7 @@ html, body {
     background: linear-gradient(#130E26, #F28907);
     overflow: hidden;
 }
-.gradient::before {
+#navbar .gradient::before {
     content: "";
     position: absolute;
     top: 0;
@@ -69,10 +70,10 @@ html, body {
     transition: transform 0.9s;
     z-index: -1;
 }
-.gradient:hover::before {
+#navbar .gradient:hover::before {
     transform: translateY(-50%);
 }
-.gradient:active {
+#navbar .gradient:active {
     color: #1FA6A6;
 }
 
