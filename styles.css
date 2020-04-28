@@ -8,6 +8,23 @@ html, body {
 
 
 }
+
+.footer > ul{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #130E26;
+}
+
+.footer > li{
+    text-decoration: none;
+    color: #130E26;
+}
 /*Nav*/
 #navbar {
     display: flex;
