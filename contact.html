@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap"
+        rel="stylesheet">
+    <script src="validation.js"></script>
+</head>
+<body id="contactBody">
+    <header>
+        <img src="images/VoyagerLogo.png" alt="Voyager">
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html" class="gradient">Home</a></li>
+            <li><a href="services.html" class="gradient">Services</a></li>
+            <li><a href="contact.html" class="gradient">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="title">
+        <h1>Contact us!</h1>
+        <p>If you think that planetary tourism would be an amazing idea, and also have a massive amount of money that you would be willing to give us with no garuntee of return on investment, please get in touch with us!</p>
+    </section>
+    <div class="formContainer">
+        <div class="form">
+            <form action="index.html" method="POST" class="contactForm" id="contactForm">
+                
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="input"><br>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phone" class="input"><br>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" class="input"><br>
+                <textarea placeholder="Comments" ></textarea><br>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div class="image">
+            <img id="jupiterImage" src="images/Jupiter.png" alt="Jupiter">
+        </div>
+    </div>
+</body>
+</html>
